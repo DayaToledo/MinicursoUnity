@@ -7,6 +7,9 @@ TagManager:
   - Arm1
   - Arm2
   - ArmArmy
+  - Shot1
+  - Shot2
+  - ShotArmy
   layers:
   - Default
   - TransparentFX

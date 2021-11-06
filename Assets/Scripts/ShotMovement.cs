@@ -4,8 +4,24 @@ using UnityEngine;
 
 public class ShotMovement : MonoBehaviour
 {
-    public float velocity = 0.1f;
+    public float velocity;
     public float lifeTime = 3;
+
+    private void Start()
+    {
+        if(gameObject.transform.CompareTag("Shot1"))
+        {
+            velocity = 0.5f;
+        }
+        if (gameObject.transform.CompareTag("Shot2"))
+        {
+            velocity = 0.2f;
+        }
+        if (gameObject.transform.CompareTag("ShotArmy"))
+        {
+            velocity = 0.3f;
+        }
+    }
 
     // Update is called once per frame
     void Update()

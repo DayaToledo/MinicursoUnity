@@ -12,14 +12,14 @@ public class LifeBarController : MonoBehaviour
     void Start()
     {
         myImage = GetComponent<Image>();
-        transform.parent.parent = null;
+        // transform.parent.parent = null;
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        transform.position = new Vector3(myEnemy.transform.position.x, myEnemy.transform.position.y + 3, myEnemy.transform.position.z);
+        // transform.position = new Vector3(myEnemy.transform.position.x, myEnemy.transform.position.y + 3, myEnemy.transform.position.z);
         myImage.fillAmount = (float) myEnemy.life/ 10.0f;
     }
 }
