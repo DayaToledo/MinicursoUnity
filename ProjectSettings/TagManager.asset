@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Arm1
+  - Arm2
+  - ArmArmy
   layers:
   - Default
   - TransparentFX
